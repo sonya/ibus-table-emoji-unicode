@@ -1,3 +1,26 @@
 Requirements:
 
     You need to install ibus-table first.
+
+Introduction:
+
+    This repo is based on ibus-table-cangjie and was created mainly to
+    test that changes made to the ibus-table code would work with a
+    non-Chinese input character set.
+
+    The data in tables/emoji.txt (which is concatenated from the two
+    files in data/) was thoughtlessly generated from
+    http://www.unicode.org/~scherer/emoji4unicode/snapshot/utc.html
+    with minimal curation only to eliminate duplicate input sequences.
+
+    The tree in its current form is not meant for real life use, due to
+    obvious problems with the distribution of input characters.  Though
+    all characters [a-f0-9] are allowed, there are only seven possible
+    first characters [nhfpafs] which are the first initials of the seven
+    top-level emoji categories in the draft spec above ([A]rtifacts was
+    changed to  [P]roducts, and [A]bstract Concepts changed to [S]ignage
+    and Symbols to avoid too many sequences beginning with 'a').  In a
+    more thoughtful sequence tree, input characters at all positions
+    would be more evenly distributed among allowed characters, and thus
+    average keystrokes would be fewer.
+
