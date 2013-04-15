@@ -21,7 +21,7 @@
 icons_DATA = 
 
 if IBUS_TABLE_BUILD_EMOJI
-icons_DATA += emoji.svg
+icons_DATA += emoji_unicode.svg
 endif
 
 icons_DATA += $(NULL)
@@ -29,7 +29,7 @@ icons_DATA += $(NULL)
 iconsdir = $(datadir)/ibus-table/icons
 
 EXTRA_DIST = \
-	emoji.svg \
+	emoji_unicode.svg \
 	$(NULL)
 icons_DATA += $(NULL)
 

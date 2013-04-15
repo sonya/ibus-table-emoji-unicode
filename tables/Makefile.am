@@ -27,7 +27,7 @@ createdb = \
 tables_DATA =
 
 if IBUS_TABLE_BUILD_EMOJI
-tables_DATA += emoji.db
+tables_DATA += emoji_unicode.db
 endif
 
 tables_DATA += $(NULL)
@@ -35,7 +35,7 @@ tables_DATA += $(NULL)
 tablesdir = $(datadir)/ibus-table/tables
 
 EXTRA_DIST = \
-	emoji.txt \
+	emoji_unicode.txt \
 	$(NULL)
 
 DISTCLEANFILES = \
