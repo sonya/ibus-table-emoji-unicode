@@ -1,0 +1,109 @@
+### Emoji Tree Input
+###
+### File header must not be modified.
+### This file must be encoded into UTF-8.
+###
+
+Emoji_Tree_Table
+VERSION_0_1
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### An unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = b27dbc0c-fa95-448b-80af-34f5b2a0d757
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+SERIAL_NUMBER = 2013041401
+
+ICON = emoji.png
+
+### The default name of this table
+NAME = Emoji
+
+### The local names of this table 
+
+### The author of this table
+AUTHOR = sonya huang
+
+### Supported languages of this table
+LANGUAGES = en_US
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = emoji
+
+### If true then the phrases' frequencies will be adjusted dynamically.
+DYNAMIC_ADJUST = TRUE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### The maxmium length of a key.
+MAX_KEY_LENGTH = 5
+
+### Valid input chars.
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyz0123456789
+
+### Whether support PinYin Mode, default is true.
+### this feature is just for Chinese, set it to False if your IM is not
+### Chinese.
+PINYIN_MODE = FALSE
+
+### Whether user are allow to define phrase, default is true
+### You have to define the word construction rules below.
+### For input methods which do not input phrases, set this to False
+USER_CAN_DEFINE_PHRASE = FALSE
+
+LAYOUT = us
+
+### Define the prompts of each valid input char.
+BEGIN_CHAR_PROMPTS_DEFINITION
+a A
+b B
+c C
+d D
+e E
+f F
+g G
+h H
+i I
+j J
+k K
+l L
+m M
+n N
+o O
+p P
+q Q
+r R
+s S
+t T
+u U
+v V
+w W
+x X
+y Y
+z Z
+0 0
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+END_CHAR_PROMPTS_DEFINITION
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+
+END_TABLE
