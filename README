@@ -16,11 +16,11 @@ Introduction:
     The tree in its current form is not meant for real life use, due to
     obvious problems with the distribution of input characters.  Though
     all characters [a-f0-9] are allowed, there are only seven possible
-    first characters [nhfpafs] which are the first initials of the seven
-    top-level emoji categories in the draft spec above ([A]rtifacts was
-    changed to  [P]roducts, and [A]bstract Concepts changed to [S]ignage
-    and Symbols to avoid too many sequences beginning with 'a').  In a
-    more thoughtful sequence tree, input characters at all positions
-    would be more evenly distributed among allowed characters, and thus
-    average keystrokes would be fewer.
+    first characters [nhfpafs] which are the first initials of the
+    seven top-level emoji categories in the draft spec above
+    ([A]rtifacts was changed to  [P]roducts, and [A]bstract Concepts
+    changed to [S]ignage and Symbols to avoid too many sequences
+    beginning with 'a').  In a more thoughtful sequence tree, input
+    characters at all positions would be more evenly distributed among
+    allowed characters, and thus average keystrokes would be fewer.
 
